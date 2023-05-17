@@ -45,7 +45,15 @@ The **Global Administrator** role is required to customize company branding.
 
 **All branding elements are optional. Default settings will remain, if left unchanged.** For example, if you specify a banner logo but no background image, the sign-in page shows your logo with a default background image from the destination site such as Microsoft 365. Additionally, sign-in page branding doesn't carry over to personal Microsoft accounts. If your users or guests authenticate using a personal Microsoft account, the sign-in page won't reflect the branding of your organization.
 
-**Images have different image and file size requirements.** Take note of the image requirements for each option. You may need to use a photo editor to create the right size images. The preferred image type for all images is PNG, but JPG is accepted. 
+**Images have different image and file size requirements.** Take note of the image requirements for each option. You may need to use a photo editor to create the right size images. The preferred image type for all images is PNG, but JPG is accepted.
+
+The requirements for each option are:
+**Favicon**: Image size: 32x32px (resizable); Max file size: 5KB; File Type: PNG (preferred), JPG or JPEG.
+**Background image**: Image size: 1920x1080px; Max file size: 300KB; File Type: PNG, JPG or JPEG.
+**Header logo**: Image size: 280x60px; Max file size: 10KB; File Type: Transparent PNG, JPG or JPEG.
+**Banner logo**: Image size: 280x60px; Max file size: 10KB; File Type: Transparent PNG, JPG or JPEG.
+**Square logo (light and dark theme)**: Image size: 240x240px (resizable); Max file size: 50KB; File Type: PNG (preferred), JPG or JPEG.
+
 
 **Use Microsoft Graph with Azure AD company branding.** Company branding can be viewed and managed using Microsoft Graph on the `/beta` endpoint and the `organizationalBranding` resource type. For more information, see the [organizational branding API documentation](/graph/api/resources/organizationalbranding?view=graph-rest-beta&preserve-view=true).
 
